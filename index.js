@@ -69,7 +69,7 @@ function render() {
 
     const average = document.querySelector("#average");
     average.innerHTML = `The average price is: $${calculateAveragePrice().toFixed(
-      2
+      1
     )}`;
   });
 }
